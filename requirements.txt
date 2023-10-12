@@ -43,3 +43,6 @@ tornado==6.0.3
 Twisted==22.4.0
 txaio==20.4.1
 zope.interface==5.4.0  # Updated version for compatibility with Python 3.9
+# Add other dependencies here
+
+

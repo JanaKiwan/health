@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-Share it on the web (you may use streamlit cloud community sharing or Heroku), and put the link to your application in the assignment submission textbox.  This tutorial can
 import streamlit as st
 import pandas as pd
 from pandas_profiling import ProfileReport as PR

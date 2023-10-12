@@ -201,10 +201,4 @@ def main():
     max_age = st.slider("Select maximum age:", int(data["age"].min()), int(data["age"].max()), int(data["age"].max()))
     filtered_data = data[(data["age"] >= min_age) & (data["age"] <= max_age)]
 
-    # Interactive Feature 2: Choose a categorical variable
-    selected_variable = st.selectbox("Select a categorical variable:", catVars)
-
-    # Display the proportion of strokes for the selected variable
-    proportions = strokeProportion(filtered_data, selected_variable)
-    st.subheader(f"Proportion of Strokes by {selected_variable}")
-    st.bar_chart(proportions)
+    
